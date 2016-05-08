@@ -1,0 +1,23 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-color: #e7e7e7;
+
+    .container {
+      display: table;
+
+      div {
+        display: table-cell;
+        height: 100px;
+        vertical-align: middle;
+        text-align: center;
+
+      }
+
+    }
+}

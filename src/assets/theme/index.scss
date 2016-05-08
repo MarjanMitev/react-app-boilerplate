@@ -1,0 +1,10 @@
+@import "./reset.scss";
+/* FONT AWESOME */
+$fa-font-path: "~font-awesome/fonts";
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~font-awesome/scss/font-awesome.scss";
+/* Recustomize bootstrap */
+@import "./custom.scss";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "./components/app/app.scss";
+@import "./components/footer/footer.scss";
